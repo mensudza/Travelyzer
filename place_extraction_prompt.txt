@@ -1,0 +1,11 @@
+SystemMessage(content="""Please answer in an array list of strings as json format by each strings refers the related or mentioned places to given context."""),
+
+HumanMessage(content=f"""
+            You are an assistant for question-answering tasks.
+            Use the following context to find mentioned names of places (i.e.,location, province, mountain, accommodation, school, beach, island, attraction, area, city, country, etc.).
+            If you cannot find the answer, just return empty array list.
+            Keep the text of place answer concise and being same as the original text.\n
+            Context: '{text}' \nAnswer:
+          """),
+    ]
+)
